@@ -1,0 +1,44 @@
+.app__sort {
+  display: flex;
+  .app__sort-selected {
+    background: #2196F3;
+    color: #FFFFFF;
+    border: 1px solid #2196F3;
+
+
+  }
+  button {
+    cursor: pointer;
+    margin: 0;
+    border:0;
+    padding:15px;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    &:not(.app__sort-selected):hover {
+      background: #eaf5ff ;
+      border-color:#2196F3;
+      color:#0c73fe;
+
+    }
+
+    &:first-child {
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+    &:last-child {
+      border-bottom-right-radius: 5px;
+      border-top-right-radius: 5px;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+  }
+
+
+}
