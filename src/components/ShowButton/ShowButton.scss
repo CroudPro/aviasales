@@ -1,0 +1,33 @@
+.tickets__next {
+  width: 502px;
+  height: 50px;
+  background: #2196F3;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  cursor: pointer;
+
+  border:0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: ease-in background-color 0.25s;
+  span {
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  &:hover {
+    background: lighten(#2196F3,10%)  ;
+    border-color:#2196F3;
+  }
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}

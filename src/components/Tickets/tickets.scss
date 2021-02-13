@@ -1,6 +1,14 @@
 .tickets {
   display:flex;
   flex-direction: column;
+  .tickets__blank {
+    width:431px;
+    height:174px;
+    background: darken(#E5E5E5,5%);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top:20px;
+  }
   .tickets__item {
     background: #FFFFFF;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -32,6 +40,7 @@
           display:flex;
           justify-content: center;
           flex-direction: column;
+          flex: 0.33;
           .tickets__segment-header {
             color: #A0B0B9;
             font-style: normal;
@@ -43,11 +52,11 @@
           }
           .tickets__segment-content {
             color: #4A4A4A;
-            font-family: Open Sans;
             font-style: normal;
             font-weight: 600;
             font-size: 14px;
             line-height: 21px;
+            flex: 1 1;
           }
         }
       }
