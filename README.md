@@ -1,6 +1,9 @@
 # Aviasales frontend task
-
+### Desktop View
 ![chrome-Oi-Eb-Uji-Il-H.png](https://i.postimg.cc/5tkwxHJ7/chrome-Oi-Eb-Uji-Il-H.png)
+### Mobile View
+![https://i.postimg.cc/BQbfb6rW/image.png](https://i.postimg.cc/BQbfb6rW/image.png)
+
 
 [Task Link](https://github.com/KosyanMedia/test-tasks/tree/master/aviasales_frontend)
 

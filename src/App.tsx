@@ -25,9 +25,13 @@ function App() {
 
   return (
     <div className="wrapper">
-      <img src={logo} alt="Logo" />
+
+
 
       <div className="app">
+          <header>
+              <img src={logo} alt="Logo" />
+          </header>
         <div className="app__left">
           <Filter
             filters={filters}
@@ -40,7 +44,11 @@ function App() {
           <SortButtons sort={sortTickets} setSort={setSort} />
           <Tickets filters={filters} allFilter={allFilter} sort={sortTickets} ticketsCount={ticketsCount} setTicketsCount={setTicketsCount} isLoaded={isLoaded} setIsLoaded={setIsLoaded}/>
             { isLoaded && <ShowButton ticketsCount={ticketsCount} setTicketsCount={setTicketsCount}/> }
+            <footer>
+
+            </footer>
         </div>
+
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 .app__sort {
-  display: flex;
-  width:502px;
+
+  width:100%;
+  height:50px;
   .app__sort-selected {
     background: #2196F3;
     color: #FFFFFF;
@@ -9,7 +10,6 @@
 
   }
   button {
-    flex: 0 1 33.33%;
     cursor: pointer;
     margin: 0;
     border:0;
